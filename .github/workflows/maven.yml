@@ -36,7 +36,7 @@ jobs:
       with:
         image: evellyn/Image
         tags: 1.0
-        registry: Docker.io
+        registry: docker.io
         dockerfile: dockerfile
         username: ${{secrets.user}}
         password: ${{secrets.senha}}
