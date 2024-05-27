@@ -34,7 +34,7 @@ jobs:
 
       uses: mr-smithers-excellent/docker-build-push@v6.4
       with:
-        image: evellyn/Image
+        image: evellyn/action_java
         tags: 1.0
         registry: docker.io
         dockerfile: dockerfile
