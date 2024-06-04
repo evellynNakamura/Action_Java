@@ -35,7 +35,7 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v6.4
       with:
         image: evellyn/action_java
-        tags: 1.0
+        tags: 1.0, 2.0
         registry: docker.io
         dockerfile: dockerfile
         username: ${{secrets.user}}
